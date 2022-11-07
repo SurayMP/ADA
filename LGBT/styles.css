@@ -1,0 +1,71 @@
+/*.bandera-francia {
+    width: 300px;
+    height: 200px;
+  }
+  .bandera-azul {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: blue;
+  }
+  .bandera-blanca {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: white;
+  }
+  .bandera-roja {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: red;
+  } */
+
+  *{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 0%
+  }
+  .banderalgbt{
+    width: 600px;
+    height: 300px;
+  }
+
+  .colorrojo{
+    width: 600px;
+    height: 50px;
+    display: inline-block;
+    background-color: red;
+  }
+  .coloranaranjado{
+    width: 600px;
+    height: 50px;
+    display: inline-block;
+    background-color: orange;
+  }
+.coloramarillo{
+    width: 600px;
+    height: 50px;
+    display: inline-block;
+    background-color: yellow;
+}
+.colorverde{
+    width: 600px;
+    height: 50px;
+    display: inline-block;
+    background-color: green;
+}
+.colorazul{
+    width: 600px;
+    height: 50px;
+    display: inline-block;
+    background-color: blue;
+}
+.colorvioleta{
+    width: 600px;
+    height: 50px;
+    display: inline-block;
+    background-color: purple;
+}

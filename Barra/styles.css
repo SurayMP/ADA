@@ -1,0 +1,89 @@
+body {
+  background-color: lightblue;
+}
+
+* {
+  border-radius: 100px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.barra-noventa {
+  background-color: white;
+  width: 500px;
+  height: 30px;
+  display: inline-block;
+  padding: 3px;
+  margin: 100px auto;
+}
+.p1 {
+  background-color: blueviolet;
+  width: 90%;
+  height: 30px;
+  display: inline-block;
+}
+
+.barra-setenta {
+  background-color: white;
+  width: 500px;
+  height: 30px;
+  display: inline-block;
+  padding: 3px;
+  margin: 100px auto;
+}
+
+.p2 {
+  background-color: orange;
+  width: 75%;
+  height: 30px;
+  display: inline-block;
+}
+
+.barra-cincuenta {
+  background-color: white;
+  width: 500px;
+  height: 30px;
+  display: inline-block;
+  padding: 3px;
+  margin: 100px auto;
+}
+
+.p3 {
+  background-color: greenyellow;
+  width: 50%;
+  height: 30px;
+  display: inline-block;
+}
+
+.barra-veinticinco {
+  background-color: white;
+  width: 500px;
+  height: 30px;
+  display: inline-block;
+  padding: 3px;
+  margin: 100px auto;
+}
+
+.p4 {
+  background-color: lightskyblue;
+  width: 25%;
+  height: 30px;
+  display: inline-block;
+}
+
+.barra-diez {
+  background-color: white;
+  width: 500px;
+  height: 30px;
+  display: inline-block;
+  padding: 3px;
+  margin: 100px auto;
+}
+
+.p5 {
+  background-color: rgb(243, 102, 102);
+  width: 10%;
+  height: 30px;
+  display: inline-block;
+}

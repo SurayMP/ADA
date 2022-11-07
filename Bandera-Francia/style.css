@@ -1,0 +1,36 @@
+/*div{
+    width: 400px;
+    height: 300px;
+    background-color: lightgreen;
+}
+
+h1{
+    background-color: blueviolet;
+    width:200px;
+} */
+
+.bandera-francesa{
+    width: 400px;
+    height: 300px;
+
+}
+.franja-azul{
+width: 100px;
+height: 100%;
+display: inline-block;
+background-color: blue;
+}
+
+.franja-blanca{
+width: 100px;
+height: 100%;
+display: inline-block;
+background-color: white;
+}
+
+.franja-roja{
+width: 100px;
+height: 100%;
+display: inline-block;
+background-color: red;
+}
