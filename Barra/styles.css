@@ -1,5 +1,7 @@
 body {
   background-color: lightblue;
+  display: flex;
+  flex-direction: column;
 }
 
 * {
@@ -12,78 +14,93 @@ body {
 .barra-noventa {
   background-color: white;
   width: 500px;
-  height: 30px;
-  display: inline-block;
+  height: 35px;
+  display: flex;
+  align-items: center;
   padding: 3px;
-  margin: 100px auto;
+  margin:auto;
+  margin-top:20px;
 }
 .p1 {
   background-color: blueviolet;
   width: 90%;
   height: 30px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
 .barra-setenta {
   background-color: white;
   width: 500px;
-  height: 30px;
-  display: inline-block;
+  height: 35px;
+  display: flex;
+  align-items: center;
   padding: 3px;
-  margin: 100px auto;
+  margin:auto;
+  margin-top:20px;
 }
 
 .p2 {
   background-color: orange;
   width: 75%;
   height: 30px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
 .barra-cincuenta {
   background-color: white;
   width: 500px;
-  height: 30px;
-  display: inline-block;
+  height: 35px;
+  display: flex;
+  align-items: center;
   padding: 3px;
-  margin: 100px auto;
+  margin:auto;
+  margin-top:20px;
 }
 
 .p3 {
   background-color: greenyellow;
   width: 50%;
   height: 30px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
 .barra-veinticinco {
   background-color: white;
   width: 500px;
-  height: 30px;
-  display: inline-block;
+  height: 35px;
+  display: flex;
+  align-items: center;
   padding: 3px;
-  margin: 100px auto;
+  margin:auto;
+  margin-top:20px;
 }
 
 .p4 {
   background-color: lightskyblue;
   width: 25%;
   height: 30px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
 .barra-diez {
   background-color: white;
   width: 500px;
-  height: 30px;
-  display: inline-block;
+  height: 35px;
+  display: flex;
+  align-items: center;
   padding: 3px;
-  margin: 100px auto;
+  margin:auto;
+  margin-top:20px;
 }
 
 .p5 {
   background-color: rgb(243, 102, 102);
   width: 10%;
   height: 30px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
