@@ -1,31 +1,19 @@
- body{
-    width: 100%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
     background-color: white;
-    
+}
 
- }
- header{
-    background-color: wheat;
-    display: flex;
-    width: 40%;
-    border: 3px solid;
- }
 main{
-    background-color: white;
-    width: 40%;
-    border: 3px solid;
-    
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
 }
 
-div{
-width:40%;
-border: 3px solid;
-}
-
-.foto{
-
-}
-
-footer{
-    width: 40%;
+button{
+    background-color: red;
+    color: white;
 }
