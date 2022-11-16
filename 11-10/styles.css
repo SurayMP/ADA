@@ -6,19 +6,43 @@
     font-size: 20px;
   }
   
-  /* Banner con imagen  */
-  /*
-  section {
+
+.contenedor{
+    width: 400px;
+    height: 400px;
+    margin: 150px;
+    border: 1px solid black;
+    background-color: lightblue;
+    position: relative;
+  }
+
+.bolita{
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: lightcoral;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+} 
+
+ section {
     height: 100vh;
     background-image: url("img/dev.png");
     background-position: center;
     background-size: cover;
     position: relative;
+    filter: grayscale(1);
   }
   .filtro {
     width: 100%;
     height: 100vh;
+    /*background-image:linear-gradient(black, white);*/
   }
+
+
   h1 {
     color: white;
     font-size: 40px;
@@ -27,11 +51,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  } */
+  }
   
-  /* Aqui vemos como funciona el position, se debe poner position relative al elemento donde
-  se movera el hijo y absolute al hijo. */
-  /* .contenedor {
+  .contenedor {
     width: 500px;
     height: 500px;
     margin: 100px auto;
@@ -63,10 +85,9 @@
   .cuadrado-3 {
     background-color: lightslategray;
     z-index: 3;
-  } */
+  }
   
-  /* Ejercicio de la carta de Taylor Swift */
-  /* .contenedor-carta {
+   .contenedor-carta {
     width: 300px;
     height: 450px;
     margin: 100px auto;
@@ -104,7 +125,7 @@
   }
   span {
     font-weight: bold;
-  } */
+  }
   
   
   body {
@@ -151,8 +172,6 @@
     align-items: center;
   }
   
-  /* Las medias queries definen un punto de quiebre. Es decir, cuando sucede tal punto
-   de quiebre, modificá las siguientes propiedades. */
   @media (max-width: 480px) {
     main {
       flex-direction: column;
