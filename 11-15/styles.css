@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-main {
+  width: 60%;
+  height: 70%;
+  background-color: white;
+  display: flex;
+}
+
+h1,
+h2,
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  color: white;
+  
+}
+.cont-1 {
+  background-color: aliceblue;
+  padding: 20px;
+  background-image: url(img/chica.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.cont-2 {
+  background-color: aquamarine;
+  height: 50%;
+  padding: 20px;
+  background-image: url(img/peras.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.cont-3 {
+  background-color: bisque;
+  height: 50%;
+  padding: 20px;
+  background-image: url(img/esparragos.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media (max-width:480px){
+    .cont-main{
+        width: 100%;
+        margin: 20px;
+        flex-direction: column;
+    }
+    .cont-1, .cont-2,.cont-3{
+        padding: 30px 0px;
+    }
+}
+
+
