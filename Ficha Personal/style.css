@@ -3,17 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: white;
 }
-
 main{
-    background-color: lightgray;
-    display: flex;
-    flex-direction: row;
+    background-color: lightgrey;
+    height: 500px;
+    width: 400px;
+    border-style:groove;
 }
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 380px;
+    margin: 5px;
+    border-style:groove;
+}
+.nombre{
+    border-style:groove;
+    font-family:sans-serif;
+    font-size: 20px;
+    padding: 38px;
+}
+header img{
+    width: 100px;
+    margin: 5px;
+    border-style:groove;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+li{
+    background-color: rebeccapurple;
+    list-style: none;
+    justify-content: space-around;
 
-button{
-    background-color: red;
-    color: white;
 }
